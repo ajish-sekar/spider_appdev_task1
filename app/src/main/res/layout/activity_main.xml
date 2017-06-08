@@ -5,14 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.notes.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#42a5f5">
 
     <EditText
         android:id="@+id/note"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter the note here"
-        android:layout_margin="8dp"/>
+        android:layout_margin="8dp"
+        android:textColorHint="#000000"
+        android:fontFamily="monospace"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,7 +33,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:hint="Enter note number to be deleted"
-            android:inputType="number"/>
+            android:inputType="number"
+            android:textColorHint="#000000"
+            android:fontFamily="sans-serif-condensed"/>
         <Button
             android:id="@+id/del_btn"
             android:layout_width="0dp"

@@ -4,7 +4,8 @@
     android:layout_height="wrap_content"
     android:padding="8dp"
     tools:text="HI"
-    android:textSize="20sp"
+    android:textSize="24sp"
     android:textColor="#000000"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fontFamily="serif-monospace">
 </TextView>
